@@ -98,8 +98,8 @@ void MCMF::addedge(int from,int to,int cap,int cost)//加边
 
 void MCMF::deletedge(int from,int to)//删除边
 {
-    edges.pop_back();
-    edges.pop_back();
+//    edges.pop_back();
+//    edges.pop_back();
     G[from].pop_back();
     G[to].pop_back();
 }

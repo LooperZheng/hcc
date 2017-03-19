@@ -163,8 +163,8 @@ void deploy_server(char * topo[MAX_EDGE_NUM], int line_num,char * filename)
     mcmf.saveEdges();
     ///模拟退火
     float T = 100;
-    float T_time = 0.005;
-    int L = 20;
+    float T_time = 0.001;
+    int L =40;
     int deployAnsLast[netNodeNum];
     memset(deployAnsLast,0,sizeof(deployAnsLast));
     int deployAns[netNodeNum];
@@ -190,6 +190,15 @@ void deploy_server(char * topo[MAX_EDGE_NUM], int line_num,char * filename)
     {
         for(int i=0; i<L;i++)
         {
+            //删除图中视频服务器位置
+            for(int i=0;i<netNodeNum;i++)
+            {
+                if(deployAnsLast[i] == 1)
+                {
+                    //cout<<"delete net Node : "<<i<<endl;
+                    mcmf.deletedge(sId,i);
+                }
+            }
             //添加视频服务器位置到图中
             for(int i=0;i<netNodeNum;i++)
             {
