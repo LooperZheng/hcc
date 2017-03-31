@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="cdn" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cdn">
+         <Option output="/home/zlp/hcc-master/bin/cdn" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/../bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zlp/hcc-master/hcc/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 cdn" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cdn/fast">
+         <Option output="/home/zlp/hcc-master/bin/cdn" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/../bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zlp/hcc-master/hcc/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 cdn/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zlp/hcc-master/build-hcc-Qt_5_2_1_qt5-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zlp/hcc-master/hcc/cdn.cpp">
+      </Unit>
+      <Unit filename="/home/zlp/hcc-master/hcc/deploy.cpp">
+      </Unit>
+      <Unit filename="/home/zlp/hcc-master/hcc/io.cpp">
+      </Unit>
+      <Unit filename="/home/zlp/hcc-master/hcc/deploy.h">
+      </Unit>
+      <Unit filename="/home/zlp/hcc-master/hcc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
